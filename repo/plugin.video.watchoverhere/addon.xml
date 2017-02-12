@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.watchoverhere" name="WatchOverHere" version="1.0.7" provider-name="Dandymedia">
+<addon id="plugin.video.watchoverhere" name="WatchOverHere" version="1.0.8" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
 	<import addon="script.module.addon.common" />
-	<import addon="script.module.requests" />
+	<import addon="script.module.muckys.common"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">TV Shows</summary>
-	<description lang="en">Multi links with HD and SD content (New Source)</description>
+	<description lang="en">Multi links with HD and SD content (New Source)[CR][CR][B][COLOR red]N.B.[/COLOR][/B] This addon requires the use of modules maintained within Mucky Ducks repository, please install his repository via [B][COLOR cornflowerblue]http://muckys.mediaportal4kodi.ml/[/COLOR][/B][CR][CR][B][I][COLOR red]A special thanks to Mucky Duck for allowing the use of these modules, and his continued help and guidance.[/I][/B][/COLOR]</description>
 	<disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
   </extension>
