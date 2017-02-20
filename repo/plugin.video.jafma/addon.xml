@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.jafma" name="JAFMA" version="1.0.6" provider-name="Dandymedia">
+<addon id="plugin.video.jafma" name="JAFMA" version="1.0.7" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="3.0.0"/>
+	<import addon="script.module.requests" />
 	<import addon="script.module.addon.common" />
-	<import addon="script.module.muckys.common"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">Movies</summary>
-	<description lang="en">HD and SD Movies and TV, Googlelinks with Openload backup</description>
+	<description lang="en">HD and SD Movies and TV</description>
 	<disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
   </extension>
