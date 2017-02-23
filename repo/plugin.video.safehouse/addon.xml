@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.safehouse" name="SafeHouse Movies" version="1.0.2" provider-name="Dandymedia">
+<addon id="plugin.video.safehouse" name="SafeHouse Movies" version="1.0.3" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="3.0.0"/>
 	<import addon="script.module.addon.common" />
-	<import addon="script.module.requests" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">Movies</summary>
-	<description lang="en">SD and HD with multiple sources , Openload require pairing</description>
-	<disclaimer lang="en"></disclaimer>
+	<description lang="en">Wide selection of Movies and TV shows in SD and HD.[CR][CR][CR][B][I][COLOR red]My addons contain some code originally written by Mucky Duck, A special thanks for allowing the use, and his continued help and guidance.[/I][/B][/COLOR]</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
