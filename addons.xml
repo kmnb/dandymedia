@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.binkytv" name="Binky TV" version="1.1.1" provider-name="Dandymedia">
+<addon id="plugin.video.binkytv" name="Binky TV" version="1.1.2" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="0.0.1"/>
@@ -88,7 +88,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.7.9" provider-name="DandyMedia">
+<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.8.0" provider-name="DandyMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -102,7 +102,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Enjoy the best of Dandymedia</summary>
     <description lang="en">[B][COLOR blue]Dandymedia Movies, TV Shows, Documentaries, Anime, Childrens TV,  Playlists and more.....Enjoy[/COLOR][/B]</description>
-	<disclaimer lang="en"></disclaimer>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
