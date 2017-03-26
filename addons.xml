@@ -233,7 +233,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.uwatchfree" name="UwatchFree" version="0.0.3" provider-name="Dandymedia">
+<addon id="plugin.video.uwatchfree" name="UwatchFree" version="1.0.0" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -243,7 +243,7 @@
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-	<summary lang="en">Movies?Tv Shows Multiple sources</summary>
+	<summary lang="en">Movies and Tv Shows Multiple sources</summary>
 	<description lang="en">Using uwatchfree.org</description>
 	<disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
@@ -615,17 +615,19 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.watchcartoon_gw" name="WatchCartoonOnline" version="1.1.3" provider-name="Dandymedia">
+<addon id="plugin.video.watchoverhere" name="WatchOverHere" version="1.1.0" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" />
+	<import addon="script.module.urlresolver"  version="3.0.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Video</summary>
-    <description lang="en">Cartoon and Anime from Watchcartoononline,[CR][CR]Big thanks to [COLOR cornflowerblue]Open[/COLOR]ELEQ for input and adding the search function.</description>
+	<summary lang="en">TV Shows</summary>
+	<description lang="en">Multi links , large catalogue content , Movies,TV Series, Cartoons and Anime</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
