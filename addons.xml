@@ -106,7 +106,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.8.3" provider-name="DandyMedia">
+<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.8.4" provider-name="DandyMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -119,7 +119,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Enjoy the best of Dandymedia</summary>
-    <description lang="en">[B][COLOR blue]Dandymedia Movies, TV Shows, Documentaries, Anime, Childrens TV,  Playlists and more.....Enjoy[/COLOR][/B]</description>
+    <description lang="en">[B][COLOR blue]Dandymedia Movies, TV Shows, Documentaries, Childrens TV,  Playlists and more.....Enjoy[/COLOR][/B]</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
