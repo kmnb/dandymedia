@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.solarmoviegw" name="SolarMovie" version="0.0.4" provider-name="Dandymedia">
+<addon id="plugin.video.solarmoviegw" name="SolarMovie" version="1.0.0" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -11,8 +11,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Video</summary>
-    <description lang="en">Movies/TV using solarmovie.ag</description>
-    <disclaimer lang="en"></disclaimer>
+    <description lang="en">Movies/TV</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
