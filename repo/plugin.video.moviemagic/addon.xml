@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.moviemagic" name="MovieMagic" version="1.0.3" provider-name="Dandymedia">
+<addon id="plugin.video.moviemagic" name="MovieMagic" version="1.0.4" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -11,8 +11,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">Movies and TV Shows</summary>
-	<description lang="en">A special thanks to MetalKettle for his time and help.[CR]A gentleman and a credit to our community.</description>
-	<disclaimer lang="en"></disclaimer>
+	<description lang="en">Enjoy</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
