@@ -106,7 +106,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.8.5" provider-name="DandyMedia">
+<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.8.6" provider-name="DandyMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -217,7 +217,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.turtlediary" name="TurtleDiary" version="0.0.4" provider-name="Dandymedia">
+<addon id="plugin.video.turtlediary" name="TurtleDiary" version="0.0.5" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -228,7 +228,7 @@
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">Educational Videos for Kids</summary>
 	<description lang="en">A range of educational videos for kids span over a variety of math, science, and language arts subjects</description>
-	<disclaimer lang="en"></disclaimer>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
