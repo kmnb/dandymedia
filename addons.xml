@@ -733,7 +733,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.filmcube" name="FilmCUBE" version="1.0.2" provider-name="Dandymedia">
+<addon id="plugin.video.filmcube" name="FilmCUBE" version="1.0.3" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -744,7 +744,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en"></summary>
-	<description lang="en">One Click Movies and TV Shows from flenix.net</description>
+	<description lang="en">One Click Movies and TV Shows from flenix.net[CR][CR][B][COLOR red]Source is HTTPS so requires Kodi 17 or elec 16 and above.[/COLOR][/B]</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
