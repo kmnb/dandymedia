@@ -577,7 +577,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.0.0" provider-name="Dandymedia">
+<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.0.1" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -589,8 +589,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">Movies</summary>
-	<description lang="en">Mainly Openload. Varying resolutions[CR][CR][B][COLOR blue]Pairing your device may be required.[/COLOR][/B][CR][CR]This can be done before starting the addon by visiting [B][COLOR blue]https://openload.co/pair[/COLOR][/B] from any device on the same home network and remains valid for 4 hours....enjoy.</description>
-	<disclaimer lang="en"></disclaimer>
+	<description lang="en">[COLOR red][B]This addon source requires a HTTPS compatible device.[CR]Kodi 17 or Elec 16 and above.[/COLOR][/B][CR][CR]Googlelinks with Openload back up. Varying resolutions[CR][B][COLOR blue]Pairing your device may be required.[/COLOR][/B][CR]This can be done before starting the addon by visiting [B][COLOR blue]https://openload.co/pair[/COLOR][/B] from any device on the same home network and remains valid for 4 hours....enjoy.</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
@@ -750,7 +750,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.2.3" provider-name="Mucky Duck">
+<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.2.5" provider-name="Mucky Duck">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
