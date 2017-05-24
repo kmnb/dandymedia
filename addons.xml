@@ -71,7 +71,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cartoonson" name="CartoonsOn" version="1.1.1" provider-name="Dandymedia">
+<addon id="plugin.video.cartoonson" name="CartoonsOn" version="1.1.2" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -250,7 +250,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.vidmax" name="VidMax" version="1.0.0" provider-name="Dandymedia">
+<addon id="plugin.video.vidmax" name="VidMax" version="1.0.1" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -284,12 +284,13 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.fineanddandy" name="Fine and Dandy" version="1.0.8" provider-name="Dandymedia">
+<addon id="plugin.video.fineanddandy" name="Fine and Dandy" version="1.1.0" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
+    <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -597,7 +598,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.woo_hoo" name="WooHoo Entertainment" version="1.0.8" provider-name="Dandymedia">
+<addon id="plugin.video.woo_hoo" name="WooHoo Entertainment" version="1.0.9" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
