@@ -105,7 +105,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.9.1" provider-name="DandyMedia">
+<addon id="plugin.video.dandymedia" name="DandyMedia" version="2.9.2" provider-name="DandyMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -387,7 +387,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.hevcvideoclub" name="HEVC VideoClub" version="1.2.8" provider-name="Dandymedia">
+<addon id="plugin.video.hevcvideoclub" name="HEVC VideoClub" version="1.2.9" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
